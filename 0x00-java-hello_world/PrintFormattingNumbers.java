@@ -3,7 +3,7 @@ public class PrintFormattingNumbers {
         float tax = 0.2456f;
         float value = 7654.321f;
         char s = '%';
-        System.out.printf("Value: $%.2f\n",value);
+        System.out.printf("Value: $%,.2f\n",value);
         System.out.printf("Tax: %.2f%c",tax , s);
     }
 }
