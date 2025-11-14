@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x01" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x01/even" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x01/numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x01/sum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x01/uppercase" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
