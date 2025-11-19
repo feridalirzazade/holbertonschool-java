@@ -1,5 +1,3 @@
-package division;
-
 public class Number {
 
 
