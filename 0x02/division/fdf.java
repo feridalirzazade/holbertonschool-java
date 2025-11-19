@@ -1,14 +1,18 @@
-public class Program {
+/*
+package division;
+
+public class fdf {
     public static void main(String[] args) {
         int a, b;
 
         a = 4;
         b = 3;
-        Number.todivide(a, b);
+        Numberf.todivide(a, b);
         System.out.println();
 
         a = 9;
         b = 0;
-        Number.todivide(a, b);
+        Numberf.todivide(a, b);
     }
 }
+*/

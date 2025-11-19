@@ -1,4 +1,6 @@
-public class Number {
+package division;
+
+public class Numberf {
 
 
     public static void todivide(int a, int b){
