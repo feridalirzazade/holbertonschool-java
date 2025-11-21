@@ -11,7 +11,7 @@ public class BasicBankAccount {
     public double getBalance(){
         return balance;
     }
-    public double getActualInterestRate(){
+    public double getAnnualInterestRate(){
         return annualInterestRate;
     }
 
