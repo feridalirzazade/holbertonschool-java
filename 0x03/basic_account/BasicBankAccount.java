@@ -1,9 +1,9 @@
 import exceptions.InvalidOperationException;
 
 public class BasicBankAccount {
-    private final String accountNumber;
+    private String accountNumber;
     private double balance;
-    private final double actualInterestRate;
+    private double actualInterestRate;
 
      public String getAccountNumber(){
          return accountNumber;
