@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x03/salary" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x03/basic_account" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x03/bookstore" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x03/special_account" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

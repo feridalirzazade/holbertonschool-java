@@ -2,7 +2,7 @@ import exceptions.InvalidOperationException;
 
 public class BasicBankAccount {
     private final String accountNumber;
-    private double balance;
+    protected double balance;
     private final double annualInterestRate;
 
      public String getAccountNumber(){
