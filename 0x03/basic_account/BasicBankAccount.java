@@ -1,9 +1,9 @@
 import exceptions.InvalidOperationException;
 
 public class BasicBankAccount {
-    private String accountNumber;
+    private final String accountNumber;
     private double balance;
-    private double actualInterestRate;
+    private final double annualInterestRate;
 
      public String getAccountNumber(){
          return accountNumber;
@@ -12,12 +12,12 @@ public class BasicBankAccount {
         return balance;
     }
     public double getActualInterestRate(){
-        return actualInterestRate;
+        return annualInterestRate;
     }
 
-    BasicBankAccount(String accountNumber, double actualInterestRate){
+    public BasicBankAccount(String accountNumber, double annualInterestRate){
          this.accountNumber = accountNumber;
-         this.actualInterestRate = actualInterestRate;
+         this.annualInterestRate = annualInterestRate;
          this.balance = 0;
     }
 
@@ -38,13 +38,13 @@ public class BasicBankAccount {
     }
 
     public double calculateMonthlyFee(){
-         if((balance/10) > 10) return 10;
-         return (balance/10);
+         if((balance * 0.10) > 10) return 10;
+         return (balance * 0.10);
     }
 
     public double calculateMonthlyInterest(){
          if(balance <= 0) return 0;
-         return balance * actualInterestRate;
+         return balance * annualInterestRate;
     }
 
     public void applyMonthlyUpdate(){
