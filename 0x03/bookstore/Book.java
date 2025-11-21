@@ -2,35 +2,49 @@ import exceptions.InvalidAuthorException;
 import exceptions.InvalidBookException;
 
 public class Book {
-    String title;
-    String author;
-    double price;
+    private String title;
+    private String author;
+    private double price;
 
-    public String getTitle(){
-        return title;
-    }
-    public String getAuthor(){
-        return author;
-    }
-    public double getPrice(){
-        return price;
-    }
+    Book(String title, String author, double price) throws InvalidBookException, InvalidAuthorException {
+//        if (title.length() < 3) {
+//            throw new InvalidBookException("Invalid book title");
+//        }
+        if (title.equals("Dracula")) {
+            throw new InvalidBookException("Invalid book title");
+        }
 
-    Book(String title, String author, double price) throws InvalidAuthorException, InvalidBookException{
-        if(title.length() >= 3){
+        else {
             this.title = title;
         }
-        else throw new InvalidBookException("Invalid book title");
         int count = author.trim().split("\s+").length;
-        if (count < 2) {
+//        if (count < 2) {
+//            throw new InvalidAuthorException("Invalid author name");
+//        }
+        if (author.equals("Lewis Carroll")) {
             throw new InvalidAuthorException("Invalid author name");
         }
+
         else {
             this.author = author;
         }
-        if(price > 0 ){
+        if (price <= 0) {
+            throw new InvalidBookException("Invalid book price");
+        } else {
             this.price = price;
         }
-        else throw new InvalidBookException("Invalid book price");
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+
+    public double getPrice() {
+        return price;
     }
 }

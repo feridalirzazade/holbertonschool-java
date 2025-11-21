@@ -7,6 +7,6 @@ public class GoldEditionBook extends Book{
     }
     @Override
     public double getPrice(){
-        return price + (price/10)*3;
+        return  super.getPrice() + (super.getPrice()/10)*3;
     }
 }
