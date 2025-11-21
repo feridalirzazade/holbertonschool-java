@@ -44,7 +44,7 @@ public class BasicBankAccount {
 
     public double calculateMonthlyInterest(){
          if(balance <= 0) return 0;
-         return balance * annualInterestRate;
+         return balance * (annualInterestRate / 100);
     }
 
     public void applyMonthlyUpdate(){
