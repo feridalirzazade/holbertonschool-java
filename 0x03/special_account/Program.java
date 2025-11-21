@@ -2,6 +2,7 @@ import java.util.Locale;
 
 public class Program {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.GERMANY);
         try {
             FeeBasedBankAccount account1 = new FeeBasedBankAccount("AAA", 30.0);
             System.out.printf("Account %s - balance: %.2f\n", account1.getAccountNumber(), account1.getBalance());
@@ -11,11 +12,9 @@ public class Program {
             System.out.printf("Account %s - balance: %.2f\n", account1.getAccountNumber(), account1.getBalance());
             account1.deposit(10);
             System.out.printf("Account %s - balance: %.2f\n", account1.getAccountNumber(), account1.getBalance());
-            System.out.println();
         } catch (Exception ex) {
             System.out.println(ex.getMessage() + "\n");
         }
-
 
         try {
             ControlledBankAccount account2 = new ControlledBankAccount("BBB", 30.0, 20, 5);
@@ -26,7 +25,6 @@ public class Program {
             System.out.printf("Account %s - balance: %.2f\n", account2.getAccountNumber(), account2.getBalance());
             account2.applyMonthlyUpdate();
             System.out.printf("Account %s - balance: %.2f\n", account2.getAccountNumber(), account2.getBalance());
-            System.out.println();
         } catch (Exception ex) {
             System.out.println(ex.getMessage() + "\n");
         }
@@ -40,11 +38,8 @@ public class Program {
             System.out.printf("Account %s - balance: %.2f\n", account3.getAccountNumber(), account3.getBalance());
             account3.applyMonthlyUpdate();
             System.out.printf("Account %s - balance: %.2f\n", account3.getAccountNumber(), account3.getBalance());
-            System.out.println();
         } catch (Exception ex) {
             System.out.println(ex.getMessage() + "\n");
         }
     }
-
-
 }
