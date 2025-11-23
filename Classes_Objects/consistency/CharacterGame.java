@@ -3,6 +3,11 @@ public class CharacterGame {
     private String name;
     private String status;
 
+    CharacterGame(int currentHealth, String name){
+        setCurrentHealth(currentHealth);
+        this.name = name;
+    }
+
     public int getCurrentHealth() {
         return currentHealth;
     }
@@ -21,6 +26,7 @@ public class CharacterGame {
     }
 
     public void setName(String name) {
+        if(name == null || name.isBlank()) return;
         this.name = name;
     }
 
