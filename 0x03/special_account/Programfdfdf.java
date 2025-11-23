@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Program {
+public class Programfdfdf {
     public static void main(String[] args) {
         Locale.setDefault(Locale.GERMANY);
         try {
