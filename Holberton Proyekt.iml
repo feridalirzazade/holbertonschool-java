@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/0x03/special_account" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/character" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/encapsulation" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
