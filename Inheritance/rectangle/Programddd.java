@@ -1,10 +1,10 @@
-public class Program {
+public class Programddd {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle();
+        Rectangleddd rectangle = new Rectangleddd();
         rectangle.setWidth(10);
         rectangle.setHeight(2);
 
-        if (GeometricShape.class.isAssignableFrom(Rectangle.class))
+        if (GeometricShapeddd.class.isAssignableFrom(Rectangleddd.class))
             System.out.println("Rectangle is a subclass of GeometricShape");
         else
             System.out.println("Rectangle is not a subclass of GeometricShape");

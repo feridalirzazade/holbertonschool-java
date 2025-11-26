@@ -1,5 +1,4 @@
 public class Rectangle extends GeometricShape{
-
     private double width;
     private double height;
 
@@ -16,5 +15,15 @@ public class Rectangle extends GeometricShape{
     public void setHeight(double height){
         if(height <= 0) throw new IllegalArgumentException("Height must be greater than or equal to 0");
         else this.height = height;
+    }
+
+    @Override
+    public double area(){
+        return getHeight() * getWidth();
+    }
+
+    @Override
+    public String toString(){
+        return String.format("[Rectangle] %.2f / %.2f", width, height);
     }
 }
