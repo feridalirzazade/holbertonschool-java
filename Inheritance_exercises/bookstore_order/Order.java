@@ -3,7 +3,7 @@ public class Order {
     private double discountPercentage;
     private ItemOrder[] items;
 
-    Order(double discountPercentage, ItemOrder[] items){
+    public Order(double discountPercentage, ItemOrder[] items){
         this.discountPercentage = discountPercentage;
         this.items = items;
     }
