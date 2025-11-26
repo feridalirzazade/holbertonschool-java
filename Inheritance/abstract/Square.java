@@ -1,4 +1,4 @@
-public class Square extends Rectangle{
+public class Square extends Rectangle {
     private double side;
 
     public double getSide(){

@@ -1,23 +1,23 @@
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
-public class Program {
+public class Program111 {
     public static void main(String[] args) {
-        Square square = new Square();
+        Square111 square = new Square111();
 
         square.setSide(10);
 
-        if (Rectangle.class.isAssignableFrom(Square.class))
+        if (Rectangle111.class.isAssignableFrom(Square111.class))
             System.out.println("Square is a subclass of Rectangle");
         else
             System.out.println("Square is not a subclass of Rectangle");
 
         try {
-            Field heightField = Rectangle.class.getDeclaredField("height");
+            Field heightField = Rectangle111.class.getDeclaredField("height");
             int changeHeight = heightField.getModifiers();
             System.out.printf("Field height is %s\n", Modifier.toString(changeHeight));
 
-            Field widthField = Rectangle.class.getDeclaredField("width");
+            Field widthField = Rectangle111.class.getDeclaredField("width");
             int changeWidth = widthField.getModifiers();
             System.out.printf("Field width is %s\n", Modifier.toString(changeWidth));
         } catch (Exception ex) {
