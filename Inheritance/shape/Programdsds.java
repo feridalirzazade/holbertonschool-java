@@ -1,6 +1,6 @@
-public class Program {
+public class Programdsds {
     public static void main(String[] args) {
-        GeometricShape geometricShape = new GeometricShape();
+        GeometricShapedsd geometricShape = new GeometricShapedsd();
 
         try {
             System.out.printf("Area: %d", geometricShape.area());
