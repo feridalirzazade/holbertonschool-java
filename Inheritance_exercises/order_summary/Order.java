@@ -21,7 +21,7 @@ public class Order {
             double total = price * quantity;
             totalProducts += total;
 
-            System.out.printf("Type: %s  Title: %s  Price: %.2f  Quant: %d  Total: %.2f\n",
+            System.out.printf("Type: %s  Title:%s  Price: %.2f  Quant: %d  Total: %.2f\n",
                     type, title, price, quantity, total);
         }
 
@@ -31,7 +31,7 @@ public class Order {
         System.out.printf("DISCOUNT: %.2f\n", discountAmount);
         System.out.printf("TOTAL PRODUCTS: %.2f\n", totalProducts);
         System.out.println("----------------------------");
-        System.out.printf("TOTAL ORDER: %.2f\n", totalProducts - discountAmount);
+        System.out.printf("TOTAL PEDIDO: %.2f\n", totalProducts - discountAmount);
         System.out.println("----------------------------");
     }
 
