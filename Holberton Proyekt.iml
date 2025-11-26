@@ -30,6 +30,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/square" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance_exercises" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance_exercises/bookstore_order" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inheritance_exercises/order_summary" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

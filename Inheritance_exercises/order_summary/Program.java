@@ -18,38 +18,38 @@ public class Program {
                 109);
 
         // Order 1
-        ItemOrder[] itemOrder1 = new ItemOrder[] {
+        ItemOrder[] itemsOrder1 = new ItemOrder[] {
                 new ItemOrder(book1, 1),
                 new ItemOrder(dvd2, 1)
         };
 
-        Order order1 = new Order(0, itemOrder1);
+        Order order1 = new Order(0, itemsOrder1);
 
-        System.out.printf("Total Order: %.2f\n", order1.calculateTotal());
+        order1.presentOrderSummary();
 
         // Order 2
-        ItemOrder[] itemOrder2 = new ItemOrder[] {
+        ItemOrder[] itemsOrder2 = new ItemOrder[] {
                 new ItemOrder(book1, 1),
                 new ItemOrder(dvd2, 1)
         };
 
-        Order order2 = new Order(10, itemOrder2);
+        Order order2 = new Order(10, itemsOrder2);
 
-        System.out.printf("Total Order: %.2f\n", order2.calculateTotal());
+        order2.presentOrderSummary();
 
         // Order 3
-        ItemOrder[] itemOrder3 = new ItemOrder[] {
+        ItemOrder[] itemsOrder3 = new ItemOrder[] {
                 new ItemOrder(book2, 1),
                 new ItemOrder(book3, 2),
                 new ItemOrder(dvd1, 1)
         };
 
-        Order order3 = new Order(5, itemOrder3);
+        Order order3 = new Order(5, itemsOrder3);
 
-        System.out.printf("Total Order: %.2f\n", order3.calculateTotal());
+        order3.presentOrderSummary();
 
         // Order 4
-        ItemOrder[] itemOrder4 = new ItemOrder[] {
+        ItemOrder[] itemsOrder4 = new ItemOrder[] {
                 new ItemOrder(book2, 1),
                 new ItemOrder(book2, 1),
                 new ItemOrder(book3, 2),
@@ -57,8 +57,8 @@ public class Program {
                 new ItemOrder(dvd2, 2)
         };
 
-        Order order4 = new Order(5, itemOrder4);
+        Order order4 = new Order(5, itemsOrder4);
 
-        System.out.printf("Total Order: %.2f\n", order4.calculateTotal());
+        order4.presentOrderSummary();
     }
 }
