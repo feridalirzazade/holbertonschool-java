@@ -23,6 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/status" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/inheritance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inheritance/shape" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
