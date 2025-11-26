@@ -1,6 +1,6 @@
-public class Rectangle extends GeometricShape{
-    private double width;
-    private double height;
+public class Rectangle extends GeometricShape {
+    protected double width;
+    protected double height;
 
     public double getWidth(){
         return width;

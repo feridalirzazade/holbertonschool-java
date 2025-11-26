@@ -26,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/rectangle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/shape" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inheritance/square" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
