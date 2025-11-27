@@ -1,9 +1,10 @@
 import providers.DalseyHillblomLynn;
 import providers.Fedex;
 import providers.UnitedParcelService;
-
+import java.util.Locale;
 public class Program {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.GERMANY);
         Order order1 = new Order(1, 1500, 234.90);
         Order order2 = new Order(2, 600, 124.00);
         Order order3 = new Order(3, 3000, 53.00);
