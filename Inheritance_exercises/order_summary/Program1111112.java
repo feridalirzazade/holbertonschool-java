@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Program {
+public class Program1111112 {
     public static void main(String[] args) {
        Locale.setDefault(Locale.GERMANY);
         products.Book book1 = new products.Book("Dune", 2017, "United States", 56.30, 680, "Frank Herbert", 1);
@@ -60,6 +60,5 @@ public class Program {
         Order order4 = new Order(5, itemsOrder4);
 
         order4.presentOrderSummary();
-        System.out.println();
     }
 }

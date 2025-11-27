@@ -10,7 +10,7 @@ public class Order {
     }
 
     public void presentOrderSummary() {
-        System.out.println("------- ORDER SUMMARY ------");
+        System.out.println("------- ORDER SUMMARY -------");
 
         double totalProducts = 0;
 
