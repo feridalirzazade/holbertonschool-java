@@ -33,6 +33,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Inheritance_exercises/order_summary" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interfaces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interfaces/workflow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises/workflow" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
