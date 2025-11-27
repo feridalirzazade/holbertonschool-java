@@ -1,5 +1,4 @@
 import java.util.Locale;
-
 public class Order {
 
     private double discountPercentage;
@@ -16,7 +15,7 @@ public class Order {
         double totalProducts = 0;
 
         for (ItemOrder item : items) {
-            String type = item.getProduct().getClass().getSimpleName(); // Book və ya Dvd
+            String type = item.getProduct().getClass().getSimpleName();
             String title = item.getProduct().getTitle();
             double price = item.getProduct().getNetPrice();
             int quantity = item.getQuantity();
