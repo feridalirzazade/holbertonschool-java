@@ -12,4 +12,9 @@ public class Fedex implements ShippingProvider{
         return shipping;
     }
 
+    @Override
+    public ShippingProviderType getShippingProviderType() {
+        return null;
+    }
+
 }
