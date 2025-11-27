@@ -31,7 +31,7 @@ public class Order {
         System.out.printf("TOTAL PRODUCTS: %.2f\n", totalProducts);
         System.out.println("----------------------------");
         System.out.printf("TOTAL ORDER: %.2f\n", totalProducts - discountAmount);
-        System.out.println("----------------------------\n");
+        System.out.println("----------------------------");
     }
     public double calculateTotal(){
         double subTotal = 0;
