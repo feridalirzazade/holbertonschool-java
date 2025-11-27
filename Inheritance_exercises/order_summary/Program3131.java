@@ -23,7 +23,7 @@ public class Program3131 {
                 new ItemOrder(dvd2, 1)
         };
 
-        Order order1 = new Order(0, itemsOrder1);
+        Order1 order1 = new Order1(0, itemsOrder1);
 
         //order1.presentOrderSummary();
 
@@ -33,7 +33,7 @@ public class Program3131 {
                 new ItemOrder(dvd2, 1)
         };
 
-        Order order2 = new Order(10, itemsOrder2);
+        Order1 order2 = new Order1(10, itemsOrder2);
 
         //order2.presentOrderSummary();
 
@@ -44,7 +44,7 @@ public class Program3131 {
                 new ItemOrder(dvd1, 1)
         };
 
-        Order order3 = new Order(5, itemsOrder3);
+        Order1 order3 = new Order1(5, itemsOrder3);
 
         //order3.presentOrderSummary();
 
@@ -57,7 +57,7 @@ public class Program3131 {
                 new ItemOrder(dvd2, 2)
         };
 
-        Order order4 = new Order(5, itemsOrder4);
+        Order1 order4 = new Order1(5, itemsOrder4);
 
        // order4.presentOrderSummary();
         System.out.print("------- ORDER SUMMARY -------\n" +

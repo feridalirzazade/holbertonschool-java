@@ -1,10 +1,9 @@
-import java.util.Locale;
-public class Order {
+public class Order1 {
 
     private double discountPercentage;
     private ItemOrder[] items;
 
-    public Order(double discountPercentage, ItemOrder[] items){
+    public Order1(double discountPercentage, ItemOrder[] items){
         this.discountPercentage = discountPercentage;
         this.items = items;
     }
