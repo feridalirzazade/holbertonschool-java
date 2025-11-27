@@ -60,5 +60,6 @@ public class Program {
         Order order4 = new Order(5, itemsOrder4);
 
         order4.presentOrderSummary();
+        System.out.println();
     }
 }
