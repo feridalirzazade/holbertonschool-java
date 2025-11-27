@@ -1,10 +1,10 @@
 import java.util.Locale;
-
 public class Order {
+
     private double discountPercentage;
     private ItemOrder[] items;
 
-    public Order(double discountPercentage, ItemOrder[] items) {
+    public Order(double discountPercentage, ItemOrder[] items){
         this.discountPercentage = discountPercentage;
         this.items = items;
     }
@@ -25,9 +25,8 @@ public class Order {
 
             totalProducts += total;
 
-            // Format nöqtə ilə göstərilsin
             System.out.printf(
-                    Locale.US,
+                    Locale.FRANCE,
                     "Type: %s  Title: %s  Price: %.2f  Quant: %d  Total: %.2f%n",
                     type, title, price, quant, total
             );
@@ -37,15 +36,22 @@ public class Order {
 
         double discountValue = totalProducts * (discountPercentage / 100);
 
-        System.out.printf(Locale.US, "DISCOUNT: %.2f%n", discountValue);
-        System.out.printf(Locale.US, "TOTAL PRODUCTS: %.2f%n", totalProducts);
+        System.out.printf(Locale.FRANCE, "DISCOUNT: %.2f%n", discountValue);
+        System.out.printf(Locale.FRANCE, "TOTAL PRODUCTS: %.2f%n", totalProducts);
 
         System.out.println("----------------------------");
 
         double finalTotal = totalProducts - discountValue;
 
-        System.out.printf(Locale.US, "TOTAL ORDER: %.2f%n", finalTotal);
+        System.out.printf(Locale.FRANCE, "TOTAL ORDER: %.2f%n", finalTotal);
 
         System.out.println("----------------------------");
+    }
+    public double calculateTotal(){
+        double subTotal = 0;
+        for (ItemOrder item: items){
+            subTotal += item.getQuantity() * item.getProduct().getNetPrice();
+        }
+        return subTotal * (1 - discountPercentage / 100);
     }
 }
