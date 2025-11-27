@@ -1,4 +1,4 @@
-public class Program {
+public class Program31 {
     public static void main(String[] args) {
         VideoProcessor videoProcessor1 = new VideoProcessor();
         videoProcessor1.registerChannel(new Slack());
