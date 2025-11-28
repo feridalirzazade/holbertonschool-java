@@ -49,6 +49,5 @@ public class Program {
         });
 
         System.out.println(legolas.toString());
-        System.out.println();
     }
 }
