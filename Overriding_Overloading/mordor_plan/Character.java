@@ -2,21 +2,14 @@ import food.Food;
 import mood.*;
 
 public class Character {
-    private int happinessPoints;
-
-    public int getHappinessPoints() {
-        return happinessPoints;
-    }
-
-    public void setHappinessPoints(int happinessPoints) {
-        this.happinessPoints = happinessPoints;
-    }
+    private int happinessPoints = 0;
 
     public void eat(Food[] foods) {
         for (Food food : foods) {
             happinessPoints += food.getHappinessPoints();
         }
     }
+
 
     public Mood getCurrentMood(){
         if (happinessPoints < -5) {
