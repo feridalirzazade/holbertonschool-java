@@ -16,7 +16,6 @@
       <sourceFolder url="file://$MODULE_DIR$/0x03/bookstore" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x03/special_account" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/character" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/consistency" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/encapsulation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/methods" isTestSource="false" />
@@ -36,6 +35,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises/shipping" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises/workflow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Classes_Objects/charactercc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Overriding_Overloading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Overriding_Overloading/mordor_plan" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Relationships" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Relationships/aggregation" isTestSource="false" />
     </content>
