@@ -8,12 +8,12 @@ public class Program1223 {
         Department engineeringDepartment = new Department(1000, 1100);
         Department documentationDepartment = new Department(1000, 800);
 
-        Employee engineeringEmployee1 = new Employee(2300);
-        Employee engineeringEmployee2 = new Employee(3650);
+        Employeeddd engineeringEmployee1 = new Employeeddd(2300);
+        Employeeddd engineeringEmployee2 = new Employeeddd(3650);
         Manager engineeringManager = new Manager(5800);
 
-        Employee documentationEmployee1 = new Employee(2500);
-        Employee documentationEmployee2 = new Employee(3000);
+        Employeeddd documentationEmployee1 = new Employeeddd(2500);
+        Employeeddd documentationEmployee2 = new Employeeddd(3000);
         Manager documentationManager = new Manager(4980);
 
         System.out.printf("Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f\n",

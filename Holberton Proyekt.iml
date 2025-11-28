@@ -36,6 +36,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises/shipping" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises/workflow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Relationships" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Relationships/aggregation" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

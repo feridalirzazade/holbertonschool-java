@@ -1,4 +1,4 @@
-public class Manager extends Employee {
+public class Manager extends Employeeddd {
     Manager(double fixedSalary) {
         super(fixedSalary);
     }

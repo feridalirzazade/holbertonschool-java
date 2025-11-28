@@ -2,7 +2,7 @@ import providers.DalseyHillblomLynn;
 import providers.Fedex;
 import providers.UnitedParcelService;
 import java.util.Locale;
-public class Program {
+public class Program31322 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.GERMANY);
         Order order1 = new Order(1, 1500, 234.90);
