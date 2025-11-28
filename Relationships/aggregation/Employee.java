@@ -38,6 +38,6 @@ public class Employee {
         System.out.println("Name: " + getName());
         System.out.println("District: " + address.getDistrict());
         System.out.println("City: " + address.getCity());
-        System.out.println("Country: " + address.getCountry());
+        System.out.print("Country: " + address.getCountry());
     }
 }
