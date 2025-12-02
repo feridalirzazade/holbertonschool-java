@@ -1,6 +1,6 @@
 import food.*;
 
-public class Program {
+public class Program3232344 {
     public static void main(String[] args) {
         Character gandalf = new Character();
         Character bilbo = new Character();

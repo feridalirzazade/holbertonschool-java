@@ -40,6 +40,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Overriding_Overloading/mordor_plan" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Relationships" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Relationships/aggregation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PrimitiveTypes_Wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PrimitiveTypes_Wrapper/positive_integer" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
