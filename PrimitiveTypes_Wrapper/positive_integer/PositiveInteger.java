@@ -3,11 +3,10 @@ public class PositiveInteger {
     PositiveInteger(int value){
         if(value > 0) this.value = value;
         else throw new IllegalArgumentException("Value is not a positive integer");
-
     }
     PositiveInteger(String value){
         int value1 = Integer.parseInt(value);
-        if( value1> 0) this.value = value1;
+        if( value1 > 0) this.value = value1;
         else throw new IllegalArgumentException("Value is not a positive integer");
     }
     public boolean isPrime() {
@@ -23,9 +22,11 @@ public class PositiveInteger {
         return value;
     }
     public void setValue(int value) {
-        this.value = value;
+        if(value > 0) this.value = value;
+        else throw new IllegalArgumentException("Value is not a positive integer");
     }
     public void setValor(int value) {
-        this.value = value;
+        if(value > 0) this.value = value;
+        else throw new IllegalArgumentException("Value is not a positive integer");
     }
 }
