@@ -1,5 +1,5 @@
 public class PositiveInteger {
-    int value;
+    private int value;
     PositiveInteger(int value){
         if(value > 0) this.value = value;
         else throw new IllegalArgumentException("Value is not a positive integer");
