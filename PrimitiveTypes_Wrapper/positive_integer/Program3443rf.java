@@ -1,4 +1,4 @@
-public class Program {
+public class Program3443rf {
     public static void main(String[] args) {
         try {
             PositiveInteger positiveInteger = new PositiveInteger("1");

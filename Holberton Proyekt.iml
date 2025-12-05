@@ -42,6 +42,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Relationships/aggregation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PrimitiveTypes_Wrapper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PrimitiveTypes_Wrapper/positive_integer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List/numbers" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
