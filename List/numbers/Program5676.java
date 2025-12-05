@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Program {
+public class Program5676 {
     public static void main(String[] args) throws Exception {
         List<Integer> numbers = new ArrayList<Integer>();
 

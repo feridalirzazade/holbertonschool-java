@@ -11,7 +11,7 @@ public class OrderProcessor {
         return shippingProvider;
     }
 
-    public void process(Order order){
+    public void process(Orderff order){
         order.setShipping(shippingProvider.calculateShipping(order.getWeight(), order.getTotal()));
     }
 }

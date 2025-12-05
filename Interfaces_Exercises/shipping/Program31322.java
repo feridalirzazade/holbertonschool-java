@@ -5,10 +5,10 @@ import java.util.Locale;
 public class Program31322 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.GERMANY);
-        Order order1 = new Order(1, 1500, 234.90);
-        Order order2 = new Order(2, 600, 124.00);
-        Order order3 = new Order(3, 3000, 53.00);
-        Order order4 = new Order(4, 7000, 300.00);
+        Orderff order1 = new Orderff(1, 1500, 234.90);
+        Orderff order2 = new Orderff(2, 600, 124.00);
+        Orderff order3 = new Orderff(3, 3000, 53.00);
+        Orderff order4 = new Orderff(4, 7000, 300.00);
 
         OrderProcessor orderProcessorFedex = new OrderProcessor(new Fedex());
         orderProcessorFedex.process(order1);

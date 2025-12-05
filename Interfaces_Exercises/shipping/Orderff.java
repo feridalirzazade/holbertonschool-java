@@ -1,14 +1,13 @@
 import providers.Shipping;
-import providers.ShippingProvider;
 
-public class Order {
+public class Orderff {
 
     private int code;
     private int weight;
     private double total;
     private Shipping shipping;
 
-    Order(int code, int weight, double total){
+    Orderff(int code, int weight, double total){
         this.code = code;
         this.weight = weight;
         this.total = total;
