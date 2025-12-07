@@ -45,6 +45,7 @@
       <sourceFolder url="file://$MODULE_DIR$/List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/cookies" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List/todo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
